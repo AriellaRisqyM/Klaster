@@ -4,3 +4,4 @@ minisom
 pandas
 scikit-learn
 matplotlib
+openpyxl
