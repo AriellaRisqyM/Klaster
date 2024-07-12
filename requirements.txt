@@ -1,2 +1,6 @@
 streamlit
-numpy minisom pandas scikit-learn matplotlib
+numpy
+minisom
+pandas
+scikit-learn
+matplotlib
