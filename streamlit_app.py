@@ -8,6 +8,13 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
+# Ensure required package is installed
+try:
+    import openpyxl
+except ImportError:
+    st.error("Please install openpyxl to read Excel files: pip install openpyxl")
+    st.stop()
+
 st.title("Klaster K-means & SOM")
 st.write("Unggah file CSV/Excel Anda untuk memulai klasterisasi.")
 
