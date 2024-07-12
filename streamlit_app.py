@@ -1,3 +1,5 @@
+!pip install numpy minisom pandas scikit-learn matplotlib
+
 import streamlit as st
 import numpy as np
 from minisom import MiniSom
